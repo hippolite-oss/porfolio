@@ -50,7 +50,7 @@ const Navbar = () => {
           <Link href="/">
             <div className="flex items-center">
               <div className="h-[40px] w-[40px] flex justify-center items-center bg-primary text-white rounded-full text-3xl font-bold">P</div>
-              <h1 className="text-3xl font-bold text-wh">orfolio</h1>
+              <h1 className="text-3xl font-bold text-wh">ortfolio</h1>
             </div>
           </Link>
         </div>
