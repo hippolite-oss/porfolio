@@ -15,16 +15,16 @@ const Footer = () => {
                </div>
                <div className='flex items-center gap-3 lg:gap-10'>
                  <div>
-                    <a href="https://www.linkedin.com/in/bernard-mahuton-koudemedo-87565b2ab?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FaLinkedin className="text-4xl" /></a>
+                    <a href="https://www.linkedin.com/in/hippolite-agbodamakou-061700360/"><FaLinkedin className="text-4xl" /></a>
                  </div>
                  <div>
-                    <a href="https://www.instagram.com/ben_kouden/profilecard/?igsh=eWcyNWRnb2JuZjZs"><FaInstagram className="text-4xl" /></a>
+                    <a href="https://www.instagram.com/bradley_hypox/"><FaInstagram className="text-4xl" /></a>
                  </div>
                  <div>
                     <a href="https://www.facebook.com/profile.php?id=61561095388097"><FaFacebook className="text-4xl" /></a>
                  </div>
                  <div>
-                    <a href="https://github.com/benkouden"><FaGithub className="text-4xl" /></a>
+                    <a href="https://github.com/hippolite-oss"><FaGithub className="text-4xl" /></a>
                  </div>
                </div>
             </motion.div>
