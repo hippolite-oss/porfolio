@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Project1 from "../../assets/PayPal-site.png";
-import Project2 from "../../assets/market.PNG";
+import Project2 from "../../assets/caurispay.png";
 import Project3 from "../../assets/volta.PNG";
 import Project4 from "../../assets/Hope.PNG";
 import Project5 from "../../assets/Resto.PNG";
