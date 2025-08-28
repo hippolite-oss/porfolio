@@ -25,7 +25,7 @@ const ProjetsData = [
         desc : "Création d'un site e-commerce moderne et intuitif pour Shopsy, mettant en avant les produits, les catégories et un processus d'achat simplifié. Conçu pour offrir une expérience utilisateur fluide, il combine un design attractif avec des fonctionnalités pratiques comme la gestion des commandes et le paiement sécurisé",
         delay : 1.2,
         img : Project1,
-        lien1:"https://newsitepay.vercel.app/connexion",
+        lien1:"https://newsitepay.vercel.app/",
         lien2:"https://github.com/hippolite-oss"
 
     },
