@@ -44,7 +44,7 @@ const ProjetsData = [
         id:3,
         title :"Project 3",
         link: "#",
-        desc : "Création d’un site web moderne et fonctionnel pour Volta Express, une entreprise spécialisée en électromécanique. Ce site met en avant les services, les expertises et les réalisations de l’entreprise, tout en offrant une navigation intuitive. Conçu pour refléter le professionnalisme de Volta Express, il combine un design attractif avec des fonctionnalités pratiques, telles que des formulaires de contact et des sections détaillées sur les prestations offertes.",
+        desc : "Conception d'une interface de connexion et d'inscription inspirée de Facebook, alliant simplicité et efficacité. Le formulaire intuitif guide l'utilisateur pas à pas, que ce soit pour accéder à son compte ou créer un nouveau profil. Il intègre les éléments visuels caractéristiques comme les champs bien distincts, le bouton d'action prominent et le lien de récupération de mot de passe. Conçu pour être responsive, il offre une expérience utilisateur fluide et sécurisée sur tous les appareils.",
         delay : 2,
         img : Project3,
         lien1:"https://facebook-form-five.vercel.app/",
