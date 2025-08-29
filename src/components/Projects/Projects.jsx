@@ -56,7 +56,7 @@ const ProjetsData = [
         id:4,
         title :"Project 4",
         link: "#",
-        desc : "Ce portfolio professionnel présente les services et compétences en rédaction web, SEO, et création de contenus digitaux. Il offre une interface moderne et réactive avec une navigation fluide, mettant en valeur les projets réalisés. Conçu pour illustrer l’expertise en production de contenus optimisés et renforcer la visibilité en ligne.",
+        desc : "Conception d'un formulaire d'inscription moderne, animé et élégant pour une expérience utilisateur exceptionnelle. Doté de micro-interactions fluides et de transitions subtiles qui guident et engagent l'utilisateur à chaque étape. Le design minimaliste met l'accent sur la simplicité et l'accessibilité, tout en offrant une validation visuelle instantanée. Une solution à la fois esthétique et fonctionnelle pour maximiser le taux de conversion.",
         delay : 2,
         img : Project4,
         lien1:"https://register-seven-delta.vercel.app/",
