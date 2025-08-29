@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Project1 from "../../assets/PayPal-site.png";
 import Project2 from "../../assets/caurispay.png";
-import Project3 from "../../assets/volta.PNG";
-import Project4 from "../../assets/Hope.PNG";
+import Project3 from "../../assets/facebook.png";
+import Project4 from "../../assets/register.png";
 import Project5 from "../../assets/Resto.PNG";
 import Project6 from "../../assets/food1.PNG";
 
@@ -47,8 +47,8 @@ const ProjetsData = [
         desc : "Création d’un site web moderne et fonctionnel pour Volta Express, une entreprise spécialisée en électromécanique. Ce site met en avant les services, les expertises et les réalisations de l’entreprise, tout en offrant une navigation intuitive. Conçu pour refléter le professionnalisme de Volta Express, il combine un design attractif avec des fonctionnalités pratiques, telles que des formulaires de contact et des sections détaillées sur les prestations offertes.",
         delay : 2,
         img : Project3,
-        lien1:"https://dev-volta-express.pantheonsite.io/",
-        lien2:"https://github.com/benkouden"
+        lien1:"https://facebook-form-five.vercel.app/",
+        lien2:"https://github.com/hippolite-oss"
 
         
     },
@@ -59,8 +59,8 @@ const ProjetsData = [
         desc : "Ce portfolio professionnel présente les services et compétences en rédaction web, SEO, et création de contenus digitaux. Il offre une interface moderne et réactive avec une navigation fluide, mettant en valeur les projets réalisés. Conçu pour illustrer l’expertise en production de contenus optimisés et renforcer la visibilité en ligne.",
         delay : 2,
         img : Project4,
-        lien1:"https://hope-portfolio.onrender.com/",
-        lien2:"https://github.com/benkouden"
+        lien1:"https://register-seven-delta.vercel.app/",
+        lien2:"https://github.com/hippolite-oss"
 
         
     },
@@ -72,7 +72,7 @@ const ProjetsData = [
         delay : 2,
         img : Project5,
         lien1:"https://hope-portfolio.onrender.com/",
-        lien2:"https://github.com/benkouden"
+        lien2:"https://github.com/hippolite-oss"
 
         
     },
@@ -84,7 +84,7 @@ const ProjetsData = [
         delay : 2,
         img : Project6,
         lien1:"https://dev-ben-food.pantheonsite.io/",
-        lien2:"https://github.com/benkouden"
+        lien2:"https://github.com/hippolite-oss"
 
         
     },
