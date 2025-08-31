@@ -22,10 +22,10 @@ const ContactForm = () => {
         e.preventDefault();
         emailjs
           .sendForm(
-            "service_3p4gghn",   // ID de votre service
-            "template_ajjlfvs",  // ID de votre modèle
-            e.target,            // Formulaire à soumettre
-            "Z5UlJ81KJ5CtKswJ0"  // Clé publique
+            "service_fnlvckn",   // ID de votre service
+            "template_shelu2v",  // ID de votre modèle
+            e.target,            // Formulaire à soumettre      
+            "ps-aYVc3Kclusv86y"  // Clé publique
           )
           .then(
             (result) => {
