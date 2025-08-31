@@ -22,7 +22,7 @@ const ProjetsData = [
         id:1,
         title :"Project 1",
         link: "#",
-        desc : "Conception d'une interface moderne et réactive pour Ypal, mettant en avant la simothèque, les services financiers et les offres promotionnelles. Le site est conçu pour une expérience utilisateur optimale, facilitant la navigation entre les différents produits et la gestion du compte client. Il allie un design épuré et professionnel à des fonctionnalités robustes comme la consultation des soldes et le paiement en ligne sécurisé",
+        desc : "Conception d'une interface moderne et réactive pour PayPal, mettant en avant la simothèque, les services financiers et les offres promotionnelles. Le site est conçu pour une expérience utilisateur optimale, facilitant la navigation entre les différents produits et la gestion du compte client. Il allie un design épuré et professionnel à des fonctionnalités robustes comme la consultation des soldes et le paiement en ligne sécurisé",
         delay : 1.2,
         img : Project1,
         lien1:"https://newsitepay.vercel.app/",
