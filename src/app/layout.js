@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Ben Porfolio",
+  title: "Bradley Portfolio",
   description: "Une vitrine personnelle qui met en avant mes compétences, mon expérience et mes réalisations dans un format visuel et interactif, reflétant ma créativité et mon professionnalisme",
 };
 
