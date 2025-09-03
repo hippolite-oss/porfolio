@@ -8,6 +8,7 @@ import Project3 from "../../assets/facebook.png";
 import Project4 from "../../assets/register.png";
 import Project5 from "../../assets/Resto.PNG";
 import Project6 from "../../assets/food1.PNG";
+import Project7 from "../../assets/grayC.png";
 
 
 
@@ -40,18 +41,7 @@ const ProjetsData = [
         lien1: "https://cauris-pay-sooty.vercel.app/",
         lien2:"https://github.com/hippolite-oss"
     },
-    {
-        id:3,
-        title :"Project 4",
-        link: "#",
-        desc : "Conception d'une interface de connexion et d'inscription inspirée de Facebook, alliant simplicité et efficacité. Le formulaire intuitif guide l'utilisateur pas à pas, que ce soit pour accéder à son compte ou créer un nouveau profil. Il intègre les éléments visuels caractéristiques comme les champs bien distincts, le bouton d'action prominent et le lien de récupération de mot de passe. Conçu pour être responsive, il offre une expérience utilisateur fluide et sécurisée sur tous les appareils.",
-        delay : 2,
-        img : Project3,
-        lien1:"https://cauris-pay-gray.vercel.app/",
-        lien2:"https://github.com/hippolite-oss"
 
-        
-    },
 
     {
         id:3,
@@ -97,6 +87,18 @@ const ProjetsData = [
         delay : 2,
         img : Project6,
         lien1:"https://dev-ben-food.pantheonsite.io/",
+        lien2:"https://github.com/hippolite-oss"
+
+        
+    },
+    {
+        id:7,
+        title :"Project 7",
+        link: "#",
+        desc : "Création d'une plateforme financière moderne et intuitive pour CaurisPay, réalisée avec un template gris, centralisant les services de paiement, transfert d'argent et paiement de factures. Conçue pour une expérience utilisateur fluide et sécurisée, elle combine un design épuré à des fonctionnalités robustes comme le portefeuille électronique et le suivi des transactions. L'interface responsive garantit une gestion simplifiée des finances depuis mobile ou ordinateur.",
+        delay : 2,
+        img : Project7,
+        lien1:"https://cauris-pay-gray.vercel.app/",
         lien2:"https://github.com/hippolite-oss"
 
         
