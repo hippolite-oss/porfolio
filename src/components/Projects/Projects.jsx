@@ -6,7 +6,7 @@ import Project1 from "../../assets/PayPal-site.png";
 import Project2 from "../../assets/caurispay.png";
 import Project3 from "../../assets/facebook.png";
 import Project4 from "../../assets/register.png";
-import Project5 from "../../assets/Resto.PNG";
+import Project5 from "../../assets/todolist.png";
 import Project6 from "../../assets/food1.PNG";
 import Project7 from "../../assets/grayC.png";
 
@@ -74,7 +74,7 @@ const ProjetsData = [
         desc : "Restaurant Gallery est un site web moderne pour un restaurant, offrant une expérience utilisateur fluide et attrayante. Il présente des sections clés : menu, galerie de plats et témoignages .Soigné avec Reactjs et Tailwind CSS, optimisé pour mobile et desktop, facilitant les réservations en ligne et améliorant la visibilité du restaurant.",
         delay : 2,
         img : Project5,
-        lien1:"https://hope-portfolio.onrender.com/",
+        lien1:"https://todolist-indol-one-31.vercel.app/",
         lien2:"https://github.com/hippolite-oss"
 
         
