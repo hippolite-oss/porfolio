@@ -71,7 +71,7 @@ const ProjetsData = [
         id:5,
         title :"Project 5",
         link: "#",
-        desc : "Restaurant Gallery est un site web moderne pour un restaurant, offrant une expérience utilisateur fluide et attrayante. Il présente des sections clés : menu, galerie de plats et témoignages .Soigné avec Reactjs et Tailwind CSS, optimisé pour mobile et desktop, facilitant les réservations en ligne et améliorant la visibilité du restaurant.",
+        desc : "Ce projet est une application To-Do List réalisée en HTML, CSS et JavaScript. Elle permet à l’utilisateur d’ajouter, de marquer comme terminées et de supprimer des tâches de manière simple et intuitive. L’interface est épurée et responsive, offrant une expérience utilisateur fluide aussi bien sur ordinateur que sur mobile.",
         delay : 2,
         img : Project5,
         lien1:"https://todolist-indol-one-31.vercel.app/",
