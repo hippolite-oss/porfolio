@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import HeroImg from "../../assets/red-man.webp";
+import HeroImg from "../../assets/bradleyhypox.png";
 import Circle from "../../assets/red.webp";
 import Wall from "../../assets/wall.jpg";
 import { animate, delay, motion } from "framer-motion";
@@ -74,7 +74,7 @@ const Hero = () => {
           <motion.div initial={{ opacity: 0}} animate= {{ opacity:1}} transition={{ duration : 0.8, delay: 0.5}} className="flex justify-center md:justify-end items-center relative">
             <div className=" bg-black rounded-3xl overflow-hidden h-[500px] flex items-end relative group hover:red-shadow hover:scale-105 duration-700 ">
                 <Image src={Circle} alt="circle" className=" absolute top-4 -left-0 -z-0 animate-spin-superslow group-hover:animate-pulse duration-300"/>
-                <Image src={HeroImg} alt="Heroimg" className="w-[400px] relative z-10 group-hover:scale-90 duration-700"/>
+                <Image src={HeroImg} alt="Heroimg" className="w-[300px] relative z-10 group-hover:scale-90 duration-700"/>
             </div>
           </motion.div>
         </div>
