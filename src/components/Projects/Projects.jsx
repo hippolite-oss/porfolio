@@ -45,7 +45,7 @@ const ProjetsData = [
 
     {
         id:3,
-        title :"Project 3",
+        title :"Facebook-Register",
         link: "#",
         desc : "Conception d'une interface de connexion et d'inscription inspirée de Facebook, alliant simplicité et efficacité. Le formulaire intuitif guide l'utilisateur pas à pas, que ce soit pour accéder à son compte ou créer un nouveau profil. Il intègre les éléments visuels caractéristiques comme les champs bien distincts, le bouton d'action prominent et le lien de récupération de mot de passe. Conçu pour être responsive, il offre une expérience utilisateur fluide et sécurisée sur tous les appareils.",
         delay : 2,
