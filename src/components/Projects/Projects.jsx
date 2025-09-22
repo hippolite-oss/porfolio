@@ -93,7 +93,7 @@ const ProjetsData = [
     },
     {
         id:7,
-        title :"Project 7",
+        title :"Cauris-PayGray",
         link: "#",
         desc : "Création d'une plateforme financière moderne et intuitive pour CaurisPay, réalisée avec un template gris, centralisant les services de paiement, transfert d'argent et paiement de factures. Conçue pour une expérience utilisateur fluide et sécurisée, elle combine un design épuré à des fonctionnalités robustes comme le portefeuille électronique et le suivi des transactions. L'interface responsive garantit une gestion simplifiée des finances depuis mobile ou ordinateur.",
         delay : 2,
