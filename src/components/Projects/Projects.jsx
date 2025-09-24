@@ -86,7 +86,7 @@ const ProjetsData = [
         desc : "Food est un site web moderne pour un restaurant, offrant une expérience utilisateur fluide et attrayante. Il présente des sections clés : menu, galerie de plats et témoignages .Soigné avec Reactjs et Tailwind CSS, optimisé pour mobile et desktop, facilitant les réservations en ligne et améliorant la visibilité du restaurant.",
         delay : 2,
         img : Project6,
-        lien1:"https://dev-ben-food.pantheonsite.io/",
+        lien1:"https://gasasite.vercel.app/index.html",
         lien2:"https://github.com/hippolite-oss"
 
         
