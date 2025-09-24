@@ -71,7 +71,7 @@ const ProjetsData = [
         id:5,
         title :"Todolist",
         link: "#",
-        desc : "Ce projet est une application To-Do List réalisée en HTML, CSS et JavaScript. Elle permet à l’utilisateur d’ajouter, de marquer comme terminées et de supprimer des tâches de manière simple et intuitive. L’interface est épurée et responsive, offrant une expérience utilisateur fluide aussi bien sur ordinateur que sur mobile.",
+        desc : "Le site dynamique de l’UATM-GASA est une plateforme moderne et interactive conçue pour offrir aux étudiants, enseignants, chercheurs et partenaires un accès simplifié à toutes les informations essentielles de l’université.",
         delay : 2,
         img : Project5,
         lien1:"https://todolist-indol-one-31.vercel.app/",
