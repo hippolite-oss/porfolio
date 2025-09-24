@@ -86,7 +86,7 @@ const ProjetsData = [
         desc : "Le site dynamique de l’UATM-GASA est une plateforme moderne et interactive conçue pour offrir aux étudiants, enseignants, chercheurs et partenaires un accès simplifié à toutes les informations essentielles de l’université.",
         delay : 2,
         img : Project6,
-        lien1:"https://dev-ben-food.pantheonsite.io/",
+        lien1:"https://gasasite.vercel.app/index.html",
         lien2:"https://github.com/hippolite-oss"
 
         
