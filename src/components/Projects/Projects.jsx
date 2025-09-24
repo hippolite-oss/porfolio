@@ -81,7 +81,7 @@ const ProjetsData = [
     },
     {
         id:6,
-        title :"First-Plat",
+        title :"UATM-GASA",
         link: "#",
         desc : "Food est un site web moderne pour un restaurant, offrant une expérience utilisateur fluide et attrayante. Il présente des sections clés : menu, galerie de plats et témoignages .Soigné avec Reactjs et Tailwind CSS, optimisé pour mobile et desktop, facilitant les réservations en ligne et améliorant la visibilité du restaurant.",
         delay : 2,
