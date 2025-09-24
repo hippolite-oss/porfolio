@@ -7,7 +7,7 @@ import Project2 from "../../assets/caurispay.png";
 import Project3 from "../../assets/facebook.png";
 import Project4 from "../../assets/register.png";
 import Project5 from "../../assets/todolist.png";
-import Project6 from "../../assets/food1.PNG";
+import Project6 from "../../assets/uatmGasa.png";
 import Project7 from "../../assets/grayC.png";
 
 
