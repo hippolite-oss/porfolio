@@ -157,7 +157,7 @@ const Projects = () => {
                                     <Link href={project.lien1} target="_blank" >
                                         <button className='border-2 border-white py-2 rounded-lg px-4'target='blilnk'>Live</button>
                                     </Link>
-                                    <Link href={project.lien2}>
+                                    <Link href={project.lien2} target="_blank" >
                                         <button className='btn'>Voir le Code</button>
                                     </Link>
                                 </div>
