@@ -154,8 +154,8 @@ const Projects = () => {
                                     <p className='text-sm line-clamp-5'>{project.desc}</p>
                                 </div>
                                 <div className='hidden group-hover:flex justify-around items-center duration-300'>
-                                    <Link href={project.lien1}>
-                                        <button className='border-2 border-white py-2 rounded-lg px-4'>Live</button>
+                                    <Link href={project.lien1} target="_blank" >
+                                        <button className='border-2 border-white py-2 rounded-lg px-4'target='blilnk'>Live</button>
                                     </Link>
                                     <Link href={project.lien2}>
                                         <button className='btn'>Voir le Code</button>
