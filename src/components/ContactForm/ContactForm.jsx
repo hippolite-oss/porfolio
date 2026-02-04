@@ -8,8 +8,8 @@ import { motion } from 'framer-motion';
 const ContactForm = () => {
     const [formData, setFormData] = React.useState({
         name:"",
-        email: " ",
-        message:" ",
+        email: "",
+        message:"",
     });
     const handleChange = (e)=>{
         const {name, value } = e.target;
@@ -40,8 +40,8 @@ const ContactForm = () => {
 
         setFormData({
             name:"",
-            email: " ",
-            message:" ",
+            email: "",
+            message:"",
         });
     };
   return (
