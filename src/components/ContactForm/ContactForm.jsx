@@ -4,8 +4,10 @@ import * as emailjs from '@emailjs/browser';
 import Image from 'next/image';
 import SendEmailPng from "../../assets/email.webp";
 import { motion } from 'framer-motion';
+import { useLanguage } from '@/context/LanguageContext';
 
 const ContactForm = () => {
+    const { t } = useLanguage();
     const [formData, setFormData] = React.useState({
         name:"",
         email: "",
@@ -24,17 +26,17 @@ const ContactForm = () => {
           .sendForm(
             "service_fnlvckn",   // ID de votre service
             "template_shelu2v",  // ID de votre modèle
-            e.target,            // Formulaire à soumettre      
+            e.target,            // Formulaire à soumettre
             "ps-aYVc3Kclusv86y"  // Clé publique
           )
           .then(
             (result) => {
               console.log("Email envoyé :", result.text);
-              alert("Email envoyé avec succès");
+              alert(t.contactForm.success);
             },
             (error) => {
               console.error("Erreur lors de l'envoi :", error.text);
-              alert("Échec de l'envoi de l'email");
+              alert(t.contactForm.error);
             }
           );
 
@@ -50,20 +52,20 @@ const ContactForm = () => {
             {/* form section  */}
             <motion.div  initial={{ opacity: 0}} whileInView= {{ opacity:1}} transition={{ duration : 0.8, delay: 0.5}} className='flex justify-center items-center'>
                 <form onSubmit={handleSubmit} className='bg-primary/45 p-8 rounded-xl w-full max-w-lg'>
-                    <h2 className='text-2xl mb-4'>Get in touch</h2>
+                    <h2 className='text-2xl mb-4'>{t.contactForm.heading}</h2>
                     <div className='mb-4'>
-                       <label className='block text-white/30' htmlFor="name">Name</label>
+                       <label className='block text-white/30' htmlFor="name">{t.contactForm.name}</label>
                        <input className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black text-white' type="text" name='name' value={formData.name} onChange={handleChange} />
                     </div>
                     <div className='mb-4'>
-                       <label className='block text-white/30' htmlFor="email">Email</label>
+                       <label className='block text-white/30' htmlFor="email">{t.contactForm.email}</label>
                        <input className='mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black text-white' type="email" name='email' value={formData.email} onChange={handleChange} />
                     </div>
                     <div className='mb-4'>
-                       <label className='block text-white/30' htmlFor="message">Message</label>
+                       <label className='block text-white/30' htmlFor="message">{t.contactForm.message}</label>
                        <textarea className='mt-1 block w-full px-3 py-6 border border-gray-300 rounded-md focus:outline-none focus:ring focus:ring-opacity-50 ring-primary bg-black text-white' name='message' value={formData.message} onChange={handleChange} />
                     </div>
-                    <button type='submit' className='btn mt-4 px-8'>Send Email</button>
+                    <button type='submit' className='btn mt-4 px-8'>{t.contactForm.send}</button>
                 </form>
             </motion.div>
             {/* Image section  */}

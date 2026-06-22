@@ -5,17 +5,23 @@ import { MdMenu } from "react-icons/md";
 import ResponsiveMenu from './ResponsiveMenu';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
 
-export const NavLinks = [
-    { id: 1, title: "Home", link : "/" },
-    { id: 2, title: "Contact", link : "/contact" },
-    { id: 3, title: "Projects", link : "/projects" },
-    { id: 4, title: "Services", link : "/services" },
-];
+export const useNavLinks = () => {
+  const { t } = useLanguage();
+  return [
+    { id: 1, title: t.nav.home, link: "/" },
+    { id: 2, title: t.nav.contact, link: "/contact" },
+    { id: 3, title: t.nav.projects, link: "/projects" },
+    { id: 4, title: t.nav.services, link: "/services" },
+  ];
+};
 
 const Navbar = () => {
   const pathname = usePathname();
   const [showMenu, setShowMenu] = React.useState(false);
+  const { t, lang, toggleLang } = useLanguage();
+  const NavLinks = useNavLinks();
 
   // Fermer le menu si un clic est fait en dehors
   useEffect(() => {
@@ -73,14 +79,25 @@ const Navbar = () => {
               );
             })}
             <button className="btn">
-              <a href="./cv.pdf">Get Resume</a>
+              <a href="./cv.pdf">{t.nav.resume}</a>
             </button>
           </ul>
         </div>
 
-        {/* Mobile menu section */}
-        <div className="md:hidden">
-          <MdMenu className="text-4xl" onClick={toggleMenu} />
+        {/* Language switcher + Mobile menu section */}
+        <div className="flex items-center gap-4">
+          <button
+            onClick={toggleLang}
+            className="flex items-center gap-1 border border-white/40 rounded-full px-3 py-1 text-sm font-bold hover:border-primary hover:text-primary transition-all duration-300"
+            aria-label="Toggle language"
+          >
+            <span className={lang === "fr" ? "text-primary" : ""}>FR</span>
+            <span className="text-white/40">/</span>
+            <span className={lang === "en" ? "text-primary" : ""}>EN</span>
+          </button>
+          <div className="md:hidden">
+            <MdMenu className="text-4xl" onClick={toggleMenu} />
+          </div>
         </div>
       </div>
 

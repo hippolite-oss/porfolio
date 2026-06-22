@@ -6,6 +6,7 @@ import Circle from "../../assets/red.webp";
 import Wall from "../../assets/wall.jpg";
 import { animate, delay, motion } from "framer-motion";
 import CountUp from "react-countup";
+import { useLanguage } from "@/context/LanguageContext";
 
 const wallBackground = {
   backgroundImage: `url(${Wall.src})`,
@@ -32,6 +33,7 @@ export const slideUp = (delay) =>{
 }
 
 const Hero = () => {
+  const { t } = useLanguage();
   return (
     <section style={wallBackground} className="bg-black text-white mt-20">
       <div className="bg-gradient-to-b from-primary/50 to-black">
@@ -39,33 +41,33 @@ const Hero = () => {
           {/* brand info */}
           <div className="flex flex-col justify-center md:text-left py-14 md:py-0">
             <div className="text-center md:text-left space-y-6">
-              <motion.p variants={slideUp(0.3)} initial="initial" animate="animate" className="text-4xl">Hello, Je suis</motion.p>
+              <motion.p variants={slideUp(0.3)} initial="initial" animate="animate" className="text-4xl">{t.hero.greeting}</motion.p>
               <motion.p variants={slideUp(0.5)} initial="initial" animate="animate" className="text-5xl lg:text-8xl font-Satisfy text-outline">
                 Bradley Hypox
               </motion.p>
               <motion.p variants={slideUp(0.7)} initial="initial" animate="animate" className="text-xl leading-snug">
-              Créateur de solutions audacieuses, je suis un développeur passionné par l’innovation et l’excellence. Porté par une curiosité insatiable et une créativité affirmée, je transforme les idées en expériences numériques percutantes. Mon moteur ? Repousser les limites, sublimer chaque projet et laisser une empreinte durable dans le monde du développement.
+              {t.hero.description}
               </motion.p>
-              <motion.button variants={slideUp(0.9)} initial="initial" animate="animate" className="btn">Know More</motion.button>
+              <motion.button variants={slideUp(0.9)} initial="initial" animate="animate" className="btn">{t.hero.knowMore}</motion.button>
               {/* Stats Section */}
               <motion.div variants={slideUp(1.1)} initial="initial" animate="animate"  className="flex justify-around bg-gradient-to-b from-primary/50 to-black border-2 border-primary/80 rounded-xl hover:red-shadow hover:scale-105 md:max-w-[400px] !mt-[44px] p-4">
                 <div className="flex flex-col items-center gap-2">
                   <p className="text-2xl font-bold">
                     <CountUp end={3} start={0} suffix="+" delay={1.4}  />
                   </p>
-                  <p className="text-xl">Experience</p>
+                  <p className="text-xl">{t.hero.experience}</p>
                 </div>
                 <div className="flex flex-col items-center gap-2">
                   <p className="text-2xl font-bold">
                     <CountUp end={20} start={0} suffix="+" delay={1.4} />
                   </p>
-                  <p className="text-xl">Projects</p>
+                  <p className="text-xl">{t.hero.projects}</p>
                 </div>
                 <div className="flex flex-col items-center gap-2">
                   <p className="text-2xl font-bold">
                     <CountUp end={10} start={0} suffix="+" delay={1.4} />
                   </p>
-                  <p className="text-xl">Clients</p>
+                  <p className="text-xl">{t.hero.clients}</p>
                 </div>
               </motion.div>
             </div>

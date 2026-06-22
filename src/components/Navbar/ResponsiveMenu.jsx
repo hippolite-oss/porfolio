@@ -1,8 +1,11 @@
 import React from 'react';
-import { NavLinks } from '../Navbar/Navbar';
+import { useNavLinks } from '../Navbar/Navbar';
 import Link from 'next/link';
+import { useLanguage } from '@/context/LanguageContext';
 
 const ResponsiveMenu = ({ showMenu }) => {
+  const NavLinks = useNavLinks();
+  const { t } = useLanguage();
   return (
     <div className={`md:hidden fixed top-0 left-0 z-[999] bg-black text-white h-full w-[75%] pt-16 pl-10 duration-300 rounded-r-xl shadow-md flex flex-col justify-between transform transition-transform ${showMenu ? 'translate-x-0' : '-translate-x-full'}`}>
       {/* Menu section */}
@@ -21,7 +24,7 @@ const ResponsiveMenu = ({ showMenu }) => {
       {/* Menu footer section */}
       <div className='-mt-64'>
         <p>
-          Made with 💖 by <a href="/">Bradley Hypox</a>
+          {t.footer.madeWith} <a href="/">Bradley Hypox</a>
         </p>
       </div>
     </div>

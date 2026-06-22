@@ -3,7 +3,9 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub } from "react-icons/fa";
 import {FaFacebook, FaInstagram,  FaLinkedin} from "react-icons/fa"
+import { useLanguage } from '@/context/LanguageContext';
 const Footer = () => {
+  const { t } = useLanguage();
   return (
     <footer className='bg-black text-white py-12'>
         <div className="container">
@@ -11,7 +13,7 @@ const Footer = () => {
                <div className='space-y-3'>
                 <h2 className='text-3xl font-bold'>Bradley Hypox 😋😎</h2>
                 <p>hippoliteagbodamakou@gmail.com</p>
-                <p>copyright © 2025 Bradley Hypox</p>
+                <p>{t.footer.copyright}</p>
                </div>
                <div className='flex items-center gap-3 lg:gap-10'>
                  <div>
