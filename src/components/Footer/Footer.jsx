@@ -17,7 +17,7 @@ const Footer = () => {
                </div>
                <div className='flex items-center gap-3 lg:gap-10'>
                  <div>
-                    <a href="https://www.linkedin.com/in/hippolite-agbodamakou-061700360/"><FaLinkedin className="text-4xl" /></a>
+                    <a href="https://www.linkedin.com/in/hippolite-agbodamakou-71a9313aa"><FaLinkedin className="text-4xl" /></a>
                  </div>
                  <div>
                     <a href="https://www.instagram.com/bradley_hypox/"><FaInstagram className="text-4xl" /></a>
